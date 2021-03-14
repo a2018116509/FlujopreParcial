@@ -1,4 +1,4 @@
-﻿namespace ApiColector.Models
+﻿namespace fncConsumidor.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
