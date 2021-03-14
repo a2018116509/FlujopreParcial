@@ -1,12 +1,11 @@
-using System;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Extensions.Logging;
-using System.Net.Mail;
-using Newtonsoft.Json;
-using fncConsumidor.Models;
-
 namespace fncConsumidor
 {
+    using System;
+    using Microsoft.Azure.WebJobs;
+    using Microsoft.Extensions.Logging;
+    using System.Net.Mail;
+    using Newtonsoft.Json;
+    using fncConsumidor.Models;
     public static class Function1
     {
         [FunctionName("Function1")]
