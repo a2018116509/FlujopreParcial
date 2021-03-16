@@ -12,6 +12,6 @@
         [Required]
         public DateTime DateTime { get; set; }
         [Required]
-        public int Step { get; set; }
+        public string Step { get; set; }
     }
 }
